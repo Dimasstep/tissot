@@ -446,6 +446,18 @@ footer {
   height: 410px;
   animation: blockImage 5s ease-in;
 }
+.img1:hover {
+  animation: animation 5ms ease-in;
+}
+.img2:hover {
+  animation: animation 5ms ease-in;
+}
+.img3:hover {
+  animation: animation 5ms ease-in;
+}
+.img4:hover {
+  animation: animation 5ms ease-in;
+}
 .titleFooter {
   position: absolute;
   width: 369px;
