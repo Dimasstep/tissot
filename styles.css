@@ -4,17 +4,18 @@
 }
 @keyframes blockImage {
   from {
-    rotate: -180deg;
-    scale: 0.9;
+    scale: 0.8;
   }
   to {
-    rotate: -180deg;
-    scale: -0.9;
+    scale: 0.8;
   }
 }
 @keyframes klickHover {
   from {
-    scale: 0.2;
+    scale: 0.9;
+  }
+  to {
+    transform: matrix3d(0, 0, 9, 0.5);
   }
 }
 body {
@@ -311,6 +312,9 @@ header {
   backdrop-filter: blur(2px);
   border-radius: 50px;
   animation: blockImage 5s ease-in;
+}
+.imagefon2:hover {
+  animation: animation 5ms ease-in;
 }
 .block4 {
   position: absolute;
