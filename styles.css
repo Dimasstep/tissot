@@ -187,6 +187,9 @@ header {
   border-radius: 50px;
   animation: blockImage 5s ease-in;
 }
+.imageblock1:hover {
+  animation: animation 5ms ease-in;
+}
 .block2 {
   position: absolute;
   width: 818px;
